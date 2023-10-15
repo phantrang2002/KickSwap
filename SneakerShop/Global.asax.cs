@@ -16,10 +16,8 @@ namespace SneakerShop
             //tk mac dinh
             Application["Users"] = new List<NguoiDung>();
             List<NguoiDung> Users = (List<NguoiDung>)Application["Users"];
-            Users.Add(new NguoiDung("thanhnam", "thanhnam@gmail.com", "thanhnam", "thanhnam"));
-            Users.Add(new NguoiDung("huyhoang", "huyhoang@gmail.com", "huyhoang", "huyhoang"));
-            Users.Add(new NguoiDung("nguyenhuy", "nguyenhuy@gmail.com", "nguyenhuy", "nguyenhuy"));
-            Users.Add(new NguoiDung("duyhuy", "duyhuy@gmail.com", "duyhuy", "duyhuy"));
+            Users.Add(new NguoiDung("phantrang", "phantrang2002@gmail.com", "123456", "123456"));
+          
 
             //sanpham
             Application["ProductList"] = new List<Product>();
@@ -29,14 +27,7 @@ namespace SneakerShop
             ProductList.Add(new Product() { Id = "2", Images = "../images/product-02.png", Name = "Jordan 'Fire Red'", Price = "280", Detail= "This Jordan 4 consists of a white leather upper with black and Fire Red detailing. Rubber netted underlays, black heel tabs with \"Nike Air\" branding, and black with fire red midsoles completes this design. These sneakers released in November of 2020 and retailed for $200." });
             ProductList.Add(new Product() { Id = "3", Images = "../images/product-03.png", Name = "YSL Opyum 110mm pumps", Price = "1028", Detail= "Set to elevate any after-dark ensemble, these Opium pumps from Saint Laurent are crafted from patent-leather for a high-shine finish. Set in black for easy pairing with a multitude of looks, they have a pointed toe and are finished with a brand embossed insole and a YSL logo heel." });
             ProductList.Add(new Product() { Id = "4", Images = "../images/product-04.png", Name = "D&G Velvet devotion slippers", Price = "537", Detail= "Feel like royalty slipping on these Velvet Devotion slippers from Dolce & Gabbana. Crafted from powder pink velvet, cotton and leather, it has a signature Sacred Heart logo plaque in gold-tone, embellished with faux pearls and a little bow. Enjoy them, Milady." });
-           // ProductList.Add(new Product() { Id = "5", Images = "../images/product-03-300x300.png", Name = "Đồng hồ nam Classico", Price = "2000000", Detail = "Đồng hồ nam Casio MTP-1381L-9AVDF với kiểu dáng thời trang dành cho nam, kim chỉ và vạch số to rõ nổi bật trên mặt đồng hồ tròn to nam tính, phối cùng với dây đeo bằng da nâu lịch lãm." });
-            /* san pham pho bien
-            ProductList.Add(new Product() { Id = "10", Images = "../images/product-10.jpg", Name = "Đồng hồ nam Mathey", Price = "600000", Detail = "Đồng hồ nam Casio MTP-1381L-9AVDF với kiểu dáng thời trang dành cho nam, kim chỉ và vạch số to rõ nổi bật trên mặt đồng hồ tròn to nam tính, phối cùng với dây đeo bằng da nâu lịch lãm." });
-            ProductList.Add(new Product() { Id = "11", Images = "../images/product-11.jpg", Name = "Đồng hồ nam Nibosi", Price = "200000", Detail = "Đồng hồ nam Casio MTP-1381L-9AVDF với kiểu dáng thời trang dành cho nam, kim chỉ và vạch số to rõ nổi bật trên mặt đồng hồ tròn to nam tính, phối cùng với dây đeo bằng da nâu lịch lãm." });
-            ProductList.Add(new Product() { Id = "12", Images = "../images/product-02-300x300.png", Name = "Đồng hồ nam Casio", Price = "500000", Detail = "Đồng hồ nam Casio MTP-1381L-9AVDF với kiểu dáng thời trang dành cho nam, kim chỉ và vạch số to rõ nổi bật trên mặt đồng hồ tròn to nam tính, phối cùng với dây đeo bằng da nâu lịch lãm." });
-            ProductList.Add(new Product() { Id = "13", Images = "../images/product-13.jpg", Name = "Đồng hồ nữ Citizen", Price = "500000", Detail = "Đồng hồ nam Casio MTP-1381L-9AVDF với kiểu dáng thời trang dành cho nam, kim chỉ và vạch số to rõ nổi bật trên mặt đồng hồ tròn to nam tính, phối cùng với dây đeo bằng da nâu lịch lãm." });
-            ProductList.Add(new Product() { Id = "14", Images = "../images/product-14.jpg", Name = "Đồng hồ nữ Julius", Price = "1200000", Detail = "Đồng hồ nam Casio MTP-1381L-9AVDF với kiểu dáng thời trang dành cho nam, kim chỉ và vạch số to rõ nổi bật trên mặt đồng hồ tròn to nam tính, phối cùng với dây đeo bằng da nâu lịch lãm." });
-           */
+           
             
             //sanpham dong ho nam
             ProductList.Add(new Product() { Id = "5", Images = "../images/giaynam/product-05.png", Name = "D&G Stretch mesh sorrento", Price = "695", Detail = "The shoe, usually made with a white leather upper and laces, has a simple design. Unlike most Adidas shoes, it does not have the external three stripes. Instead there are three rows of perforations (or punched ventilation holes) on both sides of each shoe's leather upper" });
