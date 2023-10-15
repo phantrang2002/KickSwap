@@ -1,0 +1,290 @@
+* {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: auto;
+	text-decoration: none;
+}
+
+/*--------------header---------------*/
+.header {
+	width: 100%;
+	background-color: #A5B099;
+}
+
+.header_top {
+	margin: 0px 0px 1px 0px;
+	width: 100%;
+	height: 20%;
+	background-color: #fafafa;
+	align-items: center;
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+	.header_top p {
+		color: black;
+		padding-left: 20px;
+	}
+
+	.header_top img {
+		padding-left: 80px;
+	}
+
+	.header_top .login {
+		margin-left: 60%;
+		text-decoration: none;
+		display: flex;
+		gap: 15px;
+	}
+
+		.header_top .login p {
+			color: black;
+		}
+
+		.header_top .login a {
+			color: black;
+		}
+
+			.header_top .login a.TrangDangNhap {
+				padding-right: 25px;
+			}
+
+
+.header_bot {
+	height: 50%;
+	padding-left: 80px;
+	background-color: #171717;
+	align-items: center;
+	display: flex;
+}
+
+	.header_bot .icon {
+		display: none;
+	}
+
+	.header_bot ul {
+		margin: auto;
+		padding: 0px;
+	}
+
+		.header_bot ul li {
+			list-style: none;
+			float: left;
+		}
+
+		#selected{
+			color: red;
+		}
+
+			.header_bot ul li a {
+				text-decoration: none;
+				display: block;
+				/*height: 40px;*/
+				line-height: 100px;
+				color: white;
+				padding: 0px 15px 0px 15px;
+			}
+
+				.header_bot ul li a:hover {
+					background-color: #C89979;
+					color: white;
+				}
+
+/*------------------banner--------------*/
+
+.up {
+	margin: 25px 80px 30px 80px;
+	font-size: 25px;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.chon {
+	color: #424242;
+	font-size: 19px;
+}
+
+	.chon select {
+		font-size: 15px;
+		color: #A4A4A4;
+	}
+
+.abc a:hover {
+	color: #19ce96;
+}
+
+/*phần container*/
+/*border: none, hidden, dotted, dashed, solid, double, groove, ridge, inset, outset*/
+.container {
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 50px;
+	display: flex;
+}
+
+.sidebar_one {
+	flex: 1;
+	margin-right: 15px;
+	box-sizing: border-box;
+}
+
+.sidebar_two {
+	box-sizing: border-box;
+	flex: 3;
+}
+
+.show {
+	border: #E6E6E6 solid 1px;
+	border-radius: 5px;
+	background-color: #F2F2F2;
+	margin-top: 20px;
+	
+}
+
+	.show li {
+		list-style: none;
+		right: 0;
+		transition: right linear 0.1s;
+		position: relative;
+		padding-left: 10px;
+		padding-bottom: 20px;
+	}
+
+	.show ul {
+		 padding: 0;
+	}
+
+	.show li a{
+		width: 100%;
+	}
+
+	.show li:hover {
+		right: -4px;
+		
+	}
+
+	 .show li:first-child{
+		 margin-top: 18px;
+	 }
+
+.row_2 {
+	margin-top: 30px;
+}
+
+.show1 {
+	border: #E6E6E6 solid 1px;
+	border-radius: 5px;
+	background-color: #F2F2F2;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+	.show1 ul {
+		margin-left: 0px;
+	}
+
+	.show1 li {
+		list-style: none;
+		margin-top: 25px;
+		color: #6E6E6E;
+	}
+
+
+
+
+
+/*sidebar_two*/
+
+ .sanpham a{
+	color: black;
+} 
+.sanpham_show {
+	display: inline-block;
+}
+
+.sanpham_show {
+	margin: 20px 12px;
+	border-radius: 10px;
+	padding-bottom: 10px;
+}
+
+.sanpham_gia {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 10px;
+}
+
+	.sanpham_gia p {
+		color: #009688;
+	}
+
+.sanpham_show.sanpham_gia.sanpham_ten {
+	font-size: 30px;
+}
+
+ 
+.sanpham_show img {
+	width: 220px;
+	height: 250px;
+}
+
+
+
+
+
+/*------------Footer-------------*/
+.footer {
+	float: left;
+	margin-top: 20px;
+	width: 100%;
+	background-color: black;
+}
+
+	.footer .footer_top {
+		height: 70%;
+		margin: 0px 0px 70px 0px;
+		width: 100%;
+		display: flex;
+	}
+
+
+		.footer .footer_top .footer-section:first-child {
+			width: 350px;
+			float: left;
+			padding-left: 450px;
+		}
+
+		.footer .footer_top .footer-section h1 {
+			margin: 60px 0px 30px 40px;
+			font-size: 17px;
+			color: #19ce96;
+		}
+
+		.footer .footer_top .footer-section ul li {
+			text-decoration: none;
+			list-style: none;
+			font-weight: 600;
+			margin: 10px 0px 0px 40px;
+		}
+
+			.footer .footer_top .footer-section ul li a {
+				font-size: 13px;
+				color: #908fa9;
+				line-height: 1.5;
+			}
+
+
+
+.footer_bot {
+	width: 100%;
+	height: 20px;
+	color: #fafafa;
+	text-align: center;
+	padding-bottom: 50px;
+}

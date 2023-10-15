@@ -1,0 +1,262 @@
+﻿* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: auto;
+    text-decoration: none;
+}
+
+/*--------------header---------------*/
+.header {
+    width: 100%;
+    background-color: #A5B099;
+}
+
+.header_top {
+    margin: 0px 0px 1px 0px;
+    width: 100%;
+    height: 20%;
+    background-color: #fafafa;
+    align-items: center;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+    .header_top p {
+        color: black;
+        padding-left: 20px;
+    }
+
+    .header_top img {
+        padding-left: 80px;
+    }
+
+    .header_top .login {
+        margin-left: 60%;
+        text-decoration: none;
+        display: flex;
+        gap: 15px;
+    }
+
+        .header_top .login p {
+            color: black;
+        }
+
+        .header_top .login a {
+            color: black;
+        }
+
+            .header_top .login a.TrangDangNhap {
+                padding-right: 25px;
+            }
+
+
+.header_bot {
+    height: 50%;
+    padding-left: 80px;
+    background-color: #171717;
+    align-items: center;
+    display: flex;
+}
+
+    .header_bot .icon {
+        display: none;
+    }
+
+    .header_bot ul {
+        margin: auto;
+        padding: 0px;
+    }
+
+        .header_bot ul li {
+            list-style: none;
+            float: left;
+        }
+
+#selected {
+    color: red;
+}
+
+.header_bot ul li a {
+    text-decoration: none;
+    display: block;
+    /*height: 40px;*/
+    line-height: 100px;
+    color: white;
+    padding: 0px 15px 0px 15px;
+}
+
+    .header_bot ul li a:hover {
+        background-color: #C89979;
+        color: white;
+    }
+/*------------------banner--------------*/
+
+.content {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.auth {
+    display: block;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 440px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.auth__header {
+    padding: 20px 40px;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .auth__header h2 {
+        margin: 0;
+        font-size: 1.8rem;
+        font-weight: 400;
+        color: #696969;
+    }
+
+.switch-btn {
+    color: var(--primary-color);
+    cursor: pointer;
+    user-select: none;
+}
+
+.auth__form {
+    padding: 15px 40px 30px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+    .form-control label {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+
+    .form-control input {
+        border: 1px solid #f0f0f0;
+        border-radius: 4px;
+        display: block;
+        font-size: 14px;
+        padding: 10px;
+        width: 100%;
+        outline-color: #2ecc71;
+    }
+
+    .form-control.valid input {
+        border-color: #2ecc71;
+        outline-color: #2ecc71;
+    }
+
+    .form-control.invalid input {
+        border-color: #e74c3c;
+        outline-color: #e74c3c;
+    }
+
+    .form-control.invalid p {
+        visibility: visible;
+        color: #e74c3c;
+    }
+
+    .form-control p {
+        visibility: hidden;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+.auth_btn {
+    cursor: pointer;
+    background-color: #2ecc71;
+    border: none;
+    color: #f0f0f0;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 3px;
+    outline: none;
+}
+
+    .auth_btn:hover {
+        background-color: #2abb66;
+    }
+
+.auth:nth-child(2) {
+    display: none;
+}
+
+#btn_error {
+}
+
+. /*------------Footer-------------*/
+.footer {
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+    background-color: black ;
+}
+
+.footer .footer_top {
+    height: 70%;
+    padding: 0px 0px 70px 0px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+
+
+    .footer .footer_top .footer-section:first-child {
+        width: 350px;
+        float: left;
+        padding-left: 450px;
+    }
+
+    .footer .footer_top .footer-section h1 {
+        margin: 60px 0px 30px 40px;
+        font-size: 17px;
+        color: #19ce96;
+    }
+
+    .footer .footer_top .footer-section ul li {
+        text-decoration: none;
+        list-style: none;
+        font-weight: 600;
+        margin: 10px 0px 0px 40px;
+    }
+
+        .footer .footer_top .footer-section ul li a {
+            font-size: 13px;
+            color: #908fa9;
+            line-height: 1.5;
+        }
+
+
+
+.footer_bot {
+    width: 100%;
+    height: 20px;
+    color: #fafafa;
+    text-align: center;
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+/*SEX*/
+label.sex{
+    margin-right: 50px;
+}
